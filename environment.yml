@@ -1,0 +1,9 @@
+name: hugging-face
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python >=3.8, <3.11
+  - pip
+  - pip:
+    - -r requirements.txt
